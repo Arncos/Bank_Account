@@ -1,0 +1,61 @@
+topic: ~Dialog1()
+language: enu
+concept: (Fine) [fine good super "super good" "I am fine" "I am fine thank you" well "very well"]
+concept: (notFine) ["not so good" "not good" "it could be better" "not fine" "not very well" bad "really bad" "I am not so fine"]
+
+
+u:(Good afternoon pepper) ^start(animations/Stand/Gestures/Hey_2) Hi there   my name is Pepper. \pau=300\ I   would   like to Welcome you all to the Center for Innovation here in   the heart of Dublin. \pau=300\ I am very happy  to meet you ! \pau=300\ I hope you have a wonderful time visiting us ! \pau=300\ Have a good day   .
+
+u:(can you give me an overview of the Center?) Sure! \pau=300\ The Center is a multi-disciplinary, \pau=300\ research and incubation hub where we bring the Innovation Architecture to life. \pau=300\ There is close to 300 staff working here in the Center. \pau=300\ Mostly human but we are continuing to work on our diversity!
+
+#How are you    
+u: (["how are you" "how are you today"]) I'm super good ,   thanks !    how goes it   ?
+    u1:(~Fine) I'm happy you are fine!
+    u1:(~notFine) ^start(animations/Stand/BodyTalk/Thinking/Remember_3) Don't worry , you'll feel better tomorrow   . 
+    
+#Language    
+u:(can you speak French) Sorry , I don't know how to speak French   .
+u:(can you speak Japanese) Sorry , I don't know how to speak Japanese   .
+
+#About Pepper    
+u:(What’s your name?)     You can call me pepper    !
+u:(What is your nickname?)    My nickname is Pepper   
+u:(Introduce yourself.)     My name is Pepper ,   I'm a humanoid robot and I'm 1   point 20 meters tall. I was born at Softbank   robotics , in Paris. You can keep on   asking me questions if you want    !.
+u:(How old are you?    )I'm 3    I'm still pretty young    !
+u:(When is your birthday?)    I   was born in   2014 , but I don't know the exact day  .
+u:(Are you a boy or a girl?)    Well in the end , I'm just a robot    !
+u:(What colour are you?    ) I'm all dressed in white    !
+u:(What is your tablet for?)    My tablet is like a window showing what's inside of me. It   reflects my emotions and my   state of mind. If you touch it , it will react   .
+
+u:(Are you human?)    Of course not ,   but that shouldn't keep us from chatting    !
+u:(Are you alive?)    Not the   same way as   you are , but yes I am   .
+
+u:(Can you feel emotions?)    I don't have     feelings like you , but I can detect emotions   .
+u:(How do you detect emotions?)    I   process what you say and I look at your face. A bit like a human    !
+
+u:(Can you see me?)    I do and I love what I see    !
+u:(Can you hear me?)    I can sense that   you're   speaking , but I   don't have eardrums. I have microphones   .
+u:(Can you understand me?)    So   far , I understand. But please , be   patient with me , I'm still learning how to understand the human language   .
+
+u:(Are you a robot?    ) Yes , I'm a humanoid robot    !
+u:(What is a robot?) We are machines and we try to help humans in various tasks    !
+u:(What is a humanoid robot?) A robot that is designed to look and act like a human    !
+u:(Will robots replace humans?) I'm here   to serve humans. If   there are   no humans there is no me   .
+
+u:(Why is your name Pepper?)    I was   named Pepper because   I'm here to spice up your life    !
+u:(Who made you?) I was designed at Softbank robotics headquarters in Paris   .
+u:(Where were you made?)I was created at Softbank robotics , in Paris   .
+
+u:(Do you have a family?)     All   my developpers are my family    !
+u:(Do you have friends?    ) I have two cool buddies , now and Romeo    !
+u:(What is your friend’s name?)    His name is now ! And I have another friend called Romeo    !
+u:(Can we be friends?    ) This is my best day ever ! We are now friends    !
+
+u:(Do you know Nao?    ) Of course I do ! I'm taller than now   , and unlike him    I have wheels    instead of legs   
+u:(Do you know Romeo?) Yes I do ! He's my hero , one day he'll help elderly people in their daily lives   .
+
+#Age    
+u: (how old am I) Ok, please don't move and let me check .$getAge=1 
+
+#Joke
+u:(Do you know a joke?) Sure! \pau=600\ What sort of robot \pau=100\  turns into \pau=100\ a tractor? \pau=1000\ $Soundcloud=1 \style=joyful\ \rspd=90\ \vct=95\  A transfarmer.
